@@ -4,6 +4,7 @@
     function crawler($url){
         define('ROOTPATH', __DIR__);
         $dir = ROOTPATH.'/SW';
+        $searchValue = 'test';
 
         // if (is_dir(ROOTPATH.'/SW')){
         //     if ($dh = opendir($dir)){
@@ -27,25 +28,29 @@
         //$files = preg_grep('~\.(jpeg|jpg|png)$~', scandir($dir_f)); // For multiple files extensions
         foreach (glob($path.".html") as $file) {
             array_push($files, $file);
-          $files[] = $file;
+            $files[] = $file;
         }
         //print_r($files);
 
         $allowed =  array('html');
         $filename = $path.'/1.html';
         $ext = pathinfo($filename, PATHINFO_EXTENSION);
+        $doc = new DOMDocument();
 
         if (is_dir(ROOTPATH.'/SW/Bands')){
             if ($dh = opendir(ROOTPATH.'/SW/Bands')){
                 while (($file = readdir($dh)) !== false){
                     if($file != '.' &&  $file != '..' && !is_dir($file) && pathinfo($file, PATHINFO_EXTENSION) == 'html'){
-                        echo $file."\n";
-                        array_push($htmlFiles, $file);
+                        array_push($htmlFiles, searchText($file, $searchValue)->$file);
+                        $doc -> loadHTML(file_get_contents($file));// exceptions here
+                        $title = $doc->getElementsByTagName("title");// Search on titles
                         //echo "filename:" . $file ."<br>";
                     }
                 }
             }
         }
+
+        // $html = get(url.host, url.page); // Search text on files
 
 
         // traverse directory contents
@@ -96,6 +101,25 @@
         // }
     }
     
+    class FileFound {
+        public $file;
+        public $count;
+
+        public function __construct($file, $count){
+            $this->$file = $file;
+            $this->$count = $count;
+        }
+    }
+
+    function searchText($file, $searchValue){
+        $count = 0;
+        return new FileFound($file, $count);
+    }
+
+    function sortList($htmlFiles){
+        return $htmlFiles;
+    }
+
     function searchDirectory($path){
         $filesList = array();
         $sub_folder = scandir($path);
