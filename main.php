@@ -42,7 +42,7 @@
                 while (($file = readdir($dh)) !== false){
                     if($file != '.' &&  $file != '..' && !is_dir($file) && pathinfo($file, PATHINFO_EXTENSION) == 'html'){
                         array_push($htmlFiles, searchText($file, $searchValue)->$file);
-                        $doc -> loadHTML(file_get_contents($file));// exceptions here
+                        // $doc -> loadHTML(file_get_contents($file));// exceptions here
                         $title = $doc->getElementsByTagName("title");// Search on titles
                         //echo "filename:" . $file ."<br>";
                     }
