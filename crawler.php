@@ -1,5 +1,5 @@
 <?php
-	$searchValue = 'test';
+	$searchValue = 'tes';
 
 	define('ROOTPATH', __DIR__);
 	$inTags = true;
@@ -28,8 +28,8 @@
 					if($inTags == false){
 						array_push($htmlFiles, $fileItem);
 					}
-					echo($buffer);
-					echo(strpos($buffer, $searchValue)."\n");
+					// echo($buffer);
+					// echo(strpos($buffer, $searchValue)."\n");
 					echo($fileItem."\n")."\n";
 					break;
 				}
