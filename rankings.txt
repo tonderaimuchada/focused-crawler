@@ -1,0 +1,53 @@
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/19.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/19.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/121-143302914.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/121-143302914.html
+
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/167-125310639.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/167-125310639.html
+deraim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/24-774132919.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/22.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/22.html
+53594.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/172-1169907872.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/172-1169907872.html
+eraim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/18.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/155-336563455.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/155-336563455.html
+eraim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/31-1568675693.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/10-1636505764.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/BioMedical/10-1636505764.html
+
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/15.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/15.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/43.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/43.html
+|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/20.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Goats/20.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/29.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/29.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/27.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/27.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/53.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/53.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/51.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/51.html
+|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/48.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/48.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/9.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/9.html
+
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/25.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/25.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/49.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Bands/49.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/16.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/16.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/index.txt
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/index.txt
+/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/42.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/42.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/17.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/17.html
+1|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/66.html
+2|/home/tonderaim/Documents/School/Part 4/4.1/SCS 4100 - Project/Crawler/SW/Sheep/66.html
