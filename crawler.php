@@ -3,7 +3,6 @@
 
 	define('ROOTPATH', __DIR__);
 	$inTags = true;
-	$new = true;
 	$dir = ROOTPATH.'/SW';
 	$htmlFiles = array();
 	include 'reasoner.php';
@@ -60,24 +59,32 @@
 		//$txtFile = @fopen($rankingsFile, "r+") or die("Unable to open file!");
 		// $contents = fread($txtFile,filesize($rankingsFile));
 		// echo($txtBuffer = fgets($txtFile));
-		while (($txtBuffer = fgets($txtFile)) !== false) {
-			foreach($urlList as $fileItem){
-				echo($fileItem);
+		
+		foreach($urlList as $fileItem){
+			$result = '';
+			while (($txtBuffer = fgets($txtFile)) !== false) {
+				// echo($fileItem);				
 				$rating = substr($txtBuffer, 0, strpos($txtBuffer, '|'));
 				// Errors below: Increments not exceeding 2 and not updating the original values
-				if (strpos($txtBuffer, $fileItem) !== false || strpos($txtBuffer, "file://".$fileItem) !== false) {
+				// if (strpos($txtBuffer, $fileItem) !== false || strpos($txtBuffer, "file://".$fileItem) !== false) {
 					// Update here
-					$new = false;
 					$rating++;
-					fwrite($txtFile,$rating."|".$fileItem."\n");
-				}
+					// echo(str_replace(substr($txtBuffer, 0, strpos($txtBuffer, '|')), $rating, 1));
+					$result .= str_replace(substr($txtBuffer, 0, strpos($txtBuffer, '|')), $rating, 1);
+					$txtBuffer = str_replace(substr($txtBuffer, 0, strpos($txtBuffer, '|')), $rating, 1);
+					// fwrite($txtFile,$rating."|".$fileItem."\n");
+				// }
 				// else {
-				// 	fwrite($txtFile, "1|".$fileItem."\n");
+				// 	// fwrite($txtFile, "1|".$fileItem."\n");
+				// 	echo("Else"."1|".$fileItem."\n");
+				// 	$result .= "1|".$fileItem."\n";
 				// }
 			}
+			file_put_contents($rankingsFile, "");
+			file_put_contents($rankingsFile, $result);
 		}
 	}
-	fclose($rankingsFile);
+	// fclose($rankingsFile);
 	//print_r($htmlFiles);
 
   function readFileSubDir($scanDir) {
